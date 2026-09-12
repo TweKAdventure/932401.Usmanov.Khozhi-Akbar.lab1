@@ -12,15 +12,13 @@
         <p>Начинающий предприниматель и стартапер</p>
     </header>
 
-    <!-- Обертка, которая ставит main и aside в ряд -->
+    <!-- Поставить main и aside в ряд -->
     <div style="display: flex; gap: 30px; align-items: flex-start;">
 
-        <!-- Основной контент (займет больше места) -->
         <main style="flex: 2;">
 
             <section style="margin-bottom: 30px;">
                 <h2>Обо мне</h2>
-                <img src="avatar.jpg" alt="Фотография" width="250" height="250">
             </section>
 
             <section style="margin-bottom: 30px;">
@@ -42,6 +40,10 @@
                 </ol>
             </section>
 
+            <section>
+                <img src="avatar.jpg" alt="Фотография" width="250" height="250">
+            </section>
+
             <section style="margin-bottom: 30px;">
                 <h2>Связаться со мной</h2>
                 <form action="#" method="POST">
@@ -60,9 +62,9 @@
                     <button type="submit" style="padding: 10px 20px; background-color: white; color: orange; font-weight: bold; border: none; cursor: pointer;">Отправить</button>
                 </form>
             </section>
+
         </main>
 
-        <!-- Боковая панель (встанет справа) -->
         <aside style="flex: 1; background-color: rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 8px;">
             <h3>Ключевая ценность</h3>
             <p>Создание инновационных продуктов, решающих реальные проблемы пользователей с фокусом на масштабируемость и ценность.</p>
