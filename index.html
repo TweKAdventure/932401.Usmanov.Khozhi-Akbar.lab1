@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио: Предприниматель и стартапер</title>
+</head>
+<body style="background-color: #d35400; color: white; font-family: sans-serif; margin: 0; padding: 20px;">
+
+    <header style="margin-bottom: 20px;">
+        <h1>Усманов Хожи-Акбар</h1>
+        <p>Начинающий предприниматель и стартапер</p>
+    </header>
+
+    <!-- Обертка, которая ставит main и aside в ряд -->
+    <div style="display: flex; gap: 30px; align-items: flex-start;">
+
+        <!-- Основной контент (займет больше места) -->
+        <main style="flex: 2;">
+
+            <section style="margin-bottom: 30px;">
+                <h2>Обо мне</h2>
+                <img src="avatar.jpg" alt="Фотография" width="250" height="250">
+            </section>
+
+            <section style="margin-bottom: 30px;">
+                <h2>Навыки</h2>
+                <ul>
+                    <li>Маркетинг и анализ целевой аудитории</li>
+                    <li>Управление командой</li>
+                    <li>Финансовая грамотность</li>
+                    <li>Питчинг и презентация инвесторам</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 30px;">
+                <h2>Проекты</h2>
+                <ol>
+                    <li>Стартап "VisionQC" - компьютерное зрение</li>
+                    <li>Маркетплейс "НеОбман.ру"</li>
+                    <li>Образовательный сервис для изучения финансов "Заплати миллион, и я покажу, как стать миллионером"</li>
+                </ol>
+            </section>
+
+            <section style="margin-bottom: 30px;">
+                <h2>Связаться со мной</h2>
+                <form action="#" method="POST">
+                    <div style="margin-bottom: 10px;">
+                        <label for="name">Имя:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required style="padding: 8px; width: 100%; max-width: 300px; box-sizing: border-box;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="NeObman@business.com" required style="padding: 8px; width: 100%; max-width: 300px; box-sizing: border-box;">
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="message">Сообщение:</label><br>
+                        <textarea id="message" name="message" placeholder="Опишите ваше предложение или идею..." style="padding: 8px; width: 100%; max-width: 300px; height: 80px; box-sizing: border-box;"></textarea>
+                    </div>
+                    <button type="submit" style="padding: 10px 20px; background-color: white; color: orange; font-weight: bold; border: none; cursor: pointer;">Отправить</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Боковая панель (встанет справа) -->
+        <aside style="flex: 1; background-color: rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 8px;">
+            <h3>Ключевая ценность</h3>
+            <p>Создание инновационных продуктов, решающих реальные проблемы пользователей с фокусом на масштабируемость и ценность.</p>
+        </aside>
+
+    </div>
+
+    <footer style="margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 10px;">
+        <p>&copy; 2026 Усманов Хожи-Акбар.</p>
+    </footer>
+
+</body>
+</html>
